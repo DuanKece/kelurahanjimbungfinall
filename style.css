@@ -1424,7 +1424,7 @@ body {
 
     .content-wrapper{
         position: relative;
-        top: -220px !important;
+        top: -180px
         z-index: 10;
     }
 
