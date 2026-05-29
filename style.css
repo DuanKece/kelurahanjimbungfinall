@@ -1254,12 +1254,12 @@ body {
 
     /* posisi ulang biar muat */
     .card-1{
-        left: 15% !important;
+        left: 5% !important;
         transform: rotate(-12deg) !important;
     }
 
     .card-2{
-        left: 30% !important;
+        left: 25% !important;
         transform: rotate(-4deg) !important;
     }
 
@@ -1269,7 +1269,7 @@ body {
     }
 
     .card-4{
-        left: 60% !important;
+        left: 65% !important;
         transform: rotate(12deg) !important;
     }
 
