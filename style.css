@@ -1424,6 +1424,7 @@ body {
 
     .content-wrapper{
         padding: 0 20px;
+        margin-top: -120px;
     }
 
     .about-card,
