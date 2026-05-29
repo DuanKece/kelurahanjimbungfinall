@@ -116,7 +116,7 @@ body {
     color: inherit;
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 8px;
 }
 
 .nav-brand:hover {
@@ -1383,15 +1383,16 @@ body {
     }
 
     .nav-brand{
-        font-size:1.2rem;
+        font-size:1.1rem;
         font-weight:600;
+        transform: translateY(4px);
     }
 
     /* tombol hamburger */
     .nav-toggle{
         display:block;
         position:absolute;
-        top:20px;
+        top: 6px;
         right:20px;
         font-size:28px;
         color:white;
@@ -1420,6 +1421,47 @@ body {
         width:100%;
         padding:20px 0;
     }
+
+    .content-wrapper{
+        padding: 0 20px;
+    }
+
+    .about-card,
+    .feature-card{
+        padding: 25px;
+    }
+
+     .contact-section{
+        text-align: center;
+    }
+
+    .contact-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        gap: 12px;
+        margin-bottom: 25px;
+    }
+
+    .contact-item i{
+        margin: 0;
+    }
+
+     .navbar-wrapper{
+        background: rgba(0, 0, 0, 0.25);
+        backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(10px);
+
+        padding: 5px 20px;
+        border-radius: 20px;
+
+        width: calc(100% - 30px);
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
 
 }
 
