@@ -1423,9 +1423,7 @@ body {
     }
 
     .content-wrapper{
-        position: relative;
-        top: -180px
-        z-index: 10;
+        padding: 0 20px;
     }
 
     .about-card,
